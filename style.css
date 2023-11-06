@@ -1,0 +1,237 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #fff;
+  min-height: 400px;
+}
+
+.navbar {
+  background: #1f2937;
+  color: #fff;
+  height: 60px;
+}
+
+body {
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+img {
+  max-width: 40%;
+}
+
+.header img {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.header h1 {
+  flex: 1;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+/*faz a parte que o mouse está em cima mudar de cor*/
+.navbar a:hover {
+  color: lightblue;
+}
+
+/*Ajusta a distancia até a parte util do site */
+.container {
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.container h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 460px;
+}
+
+.signup {
+  display: inline-block;
+  background: #0a51cc;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 10px; /* Adjust the padding as needed */
+  text-align: center;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.signup a:hover {
+  color: lightblue;
+}
+
+.boxTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1f2937;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.box {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: blue;
+  margin-right: 10px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes {
+  padding: 20px 0;
+}
+.box p {
+  margin-top: 10px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.box img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.headerContainer {
+  display: inline-flex;
+}
+.containerQuote {
+  margin: 0 auto;
+  padding: 110px 290px;
+  background-color: #e5e7eb;
+}
+.quoteSection {
+  display: flex;
+  font-size: 28px;
+  color: #1f2937;
+  font-style: italic;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.callToAction {
+  display: flex;
+  background: #0a51cc;
+  color: #fff;
+  border-radius: 10px;
+  margin: 120px 0px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 10px;
+  /* Adjust the padding as needed */
+
+  /* Added the following styles to make the text and button align as required */
+  align-items: center;
+  justify-content: space-between;
+}
+.callAction {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.actionText {
+  flex: 1; /* Takes up available space */
+  padding-right: 10px; /* Add space between the text and button */
+  text-align: left;
+}
+
+.signupBottom {
+  display: inline-block;
+  background: #0a51cc;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+  padding: 15px 10px; /* Adjust the padding as needed */
+  text-align: center;
+  border: 3px solid white;
+  margin-right: 100px;
+}
+
+.signupBottom a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.signupBottom a:hover {
+  color: lightblue;
+}
+
+.actionColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+}
